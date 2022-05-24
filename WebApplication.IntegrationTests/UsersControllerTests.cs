@@ -12,10 +12,11 @@ using System.Net.Http;
 using System.Net.Mime;
 using System.Text;
 using System.Threading.Tasks;
+using WebApplication.Application.Interfaces.Models.Commands;
+using WebApplication.Application.Interfaces.Models.Dto;
 using WebApplication.Core.Common.Models;
-using WebApplication.Core.Users.Commands;
-using WebApplication.Core.Users.Common.Models;
 using WebApplication.IntegrationTests.Extensions;
+using WebApplication.Presentation;
 using Xunit;
 
 namespace WebApplication.IntegrationTests

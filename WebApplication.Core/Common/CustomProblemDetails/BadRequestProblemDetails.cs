@@ -12,7 +12,6 @@ namespace WebApplication.Core.Common.CustomProblemDetails
         {
             Detail = string.Join(';', ex.Errors);
         }
-
         /// <inheritdoc />
         public BadRequestProblemDetails(Exception ex) : base(StatusCodes.Status400BadRequest)
         {

@@ -6,10 +6,11 @@ using Moq;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using WebApplication.Controllers;
+using WebApplication.Application.Interfaces.Models.Dto;
 using WebApplication.Core.Common.Behaviours;
-using WebApplication.Core.Users.Common.Models;
-using WebApplication.Middlewares;
+using WebApplication.Presentation;
+using WebApplication.Presentation.Controllers;
+using WebApplication.Presentation.Middlewares;
 using Xunit;
 
 namespace WebApplication.IntegrationTests

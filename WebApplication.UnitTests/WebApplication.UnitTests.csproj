@@ -25,6 +25,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\WebApplication.Presentation\WebApplication.Presentation.csproj" />
       <ProjectReference Include="..\WebApplication\WebApplication.csproj" />
     </ItemGroup>
 
